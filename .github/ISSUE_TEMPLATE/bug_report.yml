@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a reproducible bug in the school website demo
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: observed
+    attributes:
+      label: What happened?
+      description: Describe the observed problem.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open...
+        2. Click...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Where does it happen?
+      options:
+        - Desktop
+        - Mobile
+        - Tablet
+        - All sizes
+        - Build or CI only
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Error message or screenshot details
+      description: Remove tokens, passwords and personal information before sharing.
