@@ -25,7 +25,8 @@ Requirements: Node.js 22 and npm.
 The GitHub Actions workflow runs the same checks for pushes and pull requests. Commit the generated package-lock.json after running npm install locally for reproducible installs.
 
 ## Customize for a real school
-Start with data/school.ts and data/notices.ts. Replace the fictional school name, approved description, brand details, contact information, facilities, principal message, images and notices. Review every page and remove all demo placeholders before publishing. Do not present fictional affiliations, achievements, dates or contact information as real.
+
+Use the [school client customization checklist](docs/SCHOOL-CUSTOMIZATION.md) before adapting this fictional demo for a real school. Start with `data/school.ts` and `data/notices.ts`, and replace demo information only with school-approved, verified content.
 
 This version has no database, login system, student records, enquiry backend or CMS. The contact form is a disabled preview and does not send or save data. Connect and test a real service before claiming that enquiries are submitted.
 
